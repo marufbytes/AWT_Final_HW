@@ -7,7 +7,7 @@ export default function Page() {
     {
       name: "Maruf Ahammed",
       id: "23-54391-3",
-      avatar: "https://i.pravatar.cc/150?img=11",
+      avatar: "/boy.jpg",
       gpa: 3.89,
       major: "CSE",
       courses: [{ name: "Web Tech", color: "#2563eb" }, { name: "Algo", color: "#2563eb" }]
@@ -15,7 +15,7 @@ export default function Page() {
     {
       name: "Rahim Ahmed",
       id: "23-51102-1",
-      avatar: "https://i.pravatar.cc/150?img=53",
+      avatar: "/boy.jpg",
       gpa: 3.75,
       major: "SE",
       courses: [{ name: "DBMS", color: "#2563eb" }]
@@ -23,7 +23,7 @@ export default function Page() {
     {
       name: "Karim Uddin",
       id: "23-51103-2",
-      avatar: "https://i.pravatar.cc/150?img=32",
+      avatar: "/boy.jpg",
       gpa: 3.60,
       major: "EEE",
       courses: [{ name: "Circuits", color: "#2563eb" }]
@@ -31,7 +31,7 @@ export default function Page() {
     {
       name: "Nusrat Jahan",
       id: "21-39912-3",
-      avatar: "https://i.pravatar.cc/150?img=44",
+      avatar: "/girl.avif",
       gpa: 3.92,
       major: "CSE",
       courses: [{ name: "AI", color: "#2563eb" }]
@@ -40,7 +40,7 @@ export default function Page() {
 
   return (
     <main className="p-6 max-w-6xl mx-auto">
-      <DashboardHeader title="Student Dashboard" tagline="Lab 01: Components & Props" />
+      <DashboardHeader title="Student Dashboard" />
       
 
       <div className="mb-6">

@@ -38,7 +38,7 @@ export default function StudentCard({ name, id, avatar, gpa, major, courses, isF
             onClick={() => onToggleFavorite(id)}
             className={`text-xs px-2.5 py-1 rounded border font-medium transition-colors ${isFavorite ? 'bg-amber-50 text-amber-700 border-amber-200' : 'bg-slate-50 text-slate-600 border-slate-200 hover:bg-slate-100'}`}
           >
-            {isFavorite ? '★ Fav' : '☆ Fav'}
+            {isFavorite ? 'Fav' : 'Fav'}
           </button>
         </div>
 

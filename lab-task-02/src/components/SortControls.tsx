@@ -17,13 +17,13 @@ export default function SortControls({ currentSort, onSortChange }: SortControls
         onClick={() => onSortChange('name')}
         className={`px-3 py-1.5 border rounded-lg text-xs font-medium transition-colors ${currentSort === 'name' ? 'bg-blue-600 text-white border-blue-600' : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'}`}
       >
-        Name (A-Z)
+        Name
       </button>
       <button 
         onClick={() => onSortChange('gpa')}
         className={`px-3 py-1.5 border rounded-lg text-xs font-medium transition-colors ${currentSort === 'gpa' ? 'bg-blue-600 text-white border-blue-600' : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'}`}
       >
-        GPA (High-Low)
+        CGPA
       </button>
     </div>
   );
